@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="peach">#FFFEFAFD</color>
+    <color name="input">#EFECEC</color>
+    <color name="input_border">#C1C1C1</color>
+    <color name="button">#FACE86</color>
+    <color name="lightamber">#FACE86</color>
+    <color name="darkviolet">#420E2E</color>
+    <color name="lightpeach">#fff3d6</color>
+</resources>

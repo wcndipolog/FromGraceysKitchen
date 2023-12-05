@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:text="Title"
+                android:textColor="#4E4E4E"
+                android:gravity="center_vertical"
+                android:textSize="20sp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnView"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:background="@drawable/custom_button"
+                app:backgroundTint="@color/button"
+                android:fontFamily="@font/montserrat_medium"
+                android:text="View ➤"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="12sp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>
